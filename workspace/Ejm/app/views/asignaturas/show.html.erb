@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @asignatura.name %>
+</p>
+
+<p>
+  <strong>Codigo:</strong>
+  <%= @asignatura.Codigo %>
+</p>
+
+<p>
+  <strong>Horarios:</strong>
+  <%= @asignatura.Horarios %>
+</p>
+
+<%= link_to 'Edit', edit_asignatura_path(@asignatura) %> |
+<%= link_to 'Back', asignaturas_path %>
